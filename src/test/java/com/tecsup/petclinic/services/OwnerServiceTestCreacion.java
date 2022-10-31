@@ -35,13 +35,13 @@ public class OwnerServiceTestCreacion {
 		
 		logger.info("OWNER CREATED :" + ownerCreated);
 
-		//          ACTUAL                 , EXPECTED 
-		assertThat(ownerCreated.getId()      , notNullValue());
-		assertThat(ownerCreated.getFirst_name()    , is(OWNER_NAME));
+		//          ACTUAL                     , EXPECTED 
+		assertThat(ownerCreated.getId()        , notNullValue());
+		assertThat(ownerCreated.getFirst_name(), is(OWNER_NAME));
 		assertThat(ownerCreated.getLast_name() , is(OWNER_LASTNAME));
-		assertThat(ownerCreated.getAddress()  , is(OWNER_ADDRESS));
-		assertThat(ownerCreated.getCity()  , is(OWNER_CITY));
-		assertThat(ownerCreated.getTelephone()  , is(OWNER_TELEPHONE));
+		assertThat(ownerCreated.getAddress()   , is(OWNER_ADDRESS));
+		assertThat(ownerCreated.getCity()      , is(OWNER_CITY));
+		assertThat(ownerCreated.getTelephone() , is(OWNER_TELEPHONE));
 	}
 
 }
