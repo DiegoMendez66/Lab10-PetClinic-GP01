@@ -22,6 +22,10 @@ public class Owner {
 	private String city;
 	@Column(name = "telephone")
 	private int telephone;
+	
+	public Owner() {
+	}
+	
 	public Owner(long id, String first_name, String last_name, String address, String city, int telephone) {
 		super();
 		this.id = id;

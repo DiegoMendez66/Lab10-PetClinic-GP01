@@ -10,7 +10,7 @@ public class OwnerServiceImpl implements OwnerService {
 	
 	
 	@Autowired
-	OwnerRepository OwnerRepository;
+	OwnerRepository ownerRepository;
 
 	/**
 	 * 
@@ -19,12 +19,17 @@ public class OwnerServiceImpl implements OwnerService {
 	 */
 	@Override
 	public Owner create(Owner owner) {
-		return OwnerRepository.save(owner);
+		return ownerRepository.save(owner);
 	}
-
+	
+	/**
+	 * 
+	 * @param owner
+	 * @return
+	 */
 	@Override
 	public Owner update(Owner owner) {
-		return OwnerRepository.save(owner);
+		return ownerRepository.save(owner);
 	}
 
 }

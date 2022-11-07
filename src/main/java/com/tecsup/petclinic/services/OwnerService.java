@@ -19,10 +19,4 @@ public interface OwnerService {
 	 */
 	Owner update(Owner owner);
 
-	/**
-	 * 
-	 * @param id
-	 * 
-	 */
-
 }
