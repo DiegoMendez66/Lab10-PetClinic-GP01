@@ -27,7 +27,7 @@ public class OwnerServiceTestCreacion {
 		String OWNER_LASTNAME = "Mendez";
 		String OWNER_ADDRESS = "1258 Santa Rosita";
 		String OWNER_CITY = "Lima";
-		int OWNER_TELEPHONE = 999536259;
+		String OWNER_TELEPHONE = "999536259";
 
 		Owner owner = new Owner(OWNER_NAME, OWNER_LASTNAME, OWNER_ADDRESS, OWNER_CITY, OWNER_TELEPHONE);
 		
